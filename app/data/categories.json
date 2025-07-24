@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": "smartphones",
+      "name": "Smartphones",
+      "description": "Teléfonos inteligentes y celulares",
+      "parent_id": "electronics"
+    },
+    {
+      "id": "electronics",
+      "name": "Electrónicos",
+      "description": "Dispositivos electrónicos",
+      "parent_id": null
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "products": [
+    {
+      "id": "MLA123456789",
+      "title": "Samsung Galaxy A55 5G Dual SIM 128 GB azul claro 8 GB RAM",
+      "price": 439,
+      "original_price": null,
+      "currency": "US$",
+      "condition": "Nuevo",
+      "sold_quantity": "500+",
+      "rating": 4.5,
+      "reviews_count": 127,
+      "free_shipping": true,
+      "full_warranty": true,
+      "mercado_pago": true,
+      "category_id": "smartphones",
+      "seller_id": "SELLER001",
+      "images": [
+        "https://via.placeholder.com/400x400/667eea/ffffff?text=Galaxy+A55+1",
+        "https://via.placeholder.com/400x400/764ba2/ffffff?text=Galaxy+A55+2",
+        "https://via.placeholder.com/400x400/f093fb/ffffff?text=Galaxy+A55+3",
+        "https://via.placeholder.com/400x400/4facfe/ffffff?text=Galaxy+A55+4"
+      ],
+      "colors": [
+        {"name": "Negro", "available": true},
+        {"name": "Azul claro", "available": true},
+        {"name": "Blanco", "available": false}
+      ],
+      "specifications": [
+        {"label": "Memoria RAM", "value": "8 GB"},
+        {"label": "Almacenamiento interno", "value": "128 GB"},
+        {"label": "Tipo de pantalla", "value": "Super AMOLED"},
+        {"label": "Tamaño de pantalla", "value": "6.6\""},
+        {"label": "Resolución de la cámara trasera principal", "value": "50 Mpx"},
+        {"label": "Sistema operativo", "value": "Android"}
+      ],
+      "stock": 25,
+      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "installments": {
+        "available": true,
+        "count": 12,
+        "interest": "sin interés"
+      },
+      "description": "El Samsung Galaxy A55 5G combina diseño premium con rendimiento excepcional. Su pantalla Super AMOLED de 6.6 pulgadas ofrece colores vibrantes y detalles nítidos.",
+      "features": [
+        "Procesador Exynos 1480 de alto rendimiento",
+        "Sistema de cámara triple con IA",
+        "Batería de 5000 mAh con carga rápida",
+        "Resistente al agua IP67"
+      ],
+      "created_at": "2024-01-15T10:30:00Z",
+      "updated_at": "2024-01-20T15:45:00Z"
+    },
+    {
+      "id": "MLA123456790",
+      "title": "Samsung Galaxy A54 5G 128 GB azul 6 GB RAM",
+      "price": 429,
+      "original_price": 459,
+      "currency": "US$",
+      "condition": "Nuevo",
+      "sold_quantity": "300+",
+      "rating": 4.3,
+      "reviews_count": 89,
+      "free_shipping": true,
+      "full_warranty": true,
+      "mercado_pago": true,
+      "category_id": "smartphones",
+      "seller_id": "SELLER001",
+      "images": [
+        "https://via.placeholder.com/400x400/5f27cd/ffffff?text=Galaxy+A54"
+      ],
+      "colors": [
+        {"name": "Azul", "available": true},
+        {"name": "Negro", "available": true}
+      ],
+      "specifications": [
+        {"label": "Memoria RAM", "value": "6 GB"},
+        {"label": "Almacenamiento interno", "value": "128 GB"}
+      ],
+      "stock": 15,
+      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "installments": {
+        "available": true,
+        "count": 12,
+        "interest": "sin interés"
+      },
+      "description": "Samsung Galaxy A54 5G con excelente rendimiento.",
+      "features": [],
+      "created_at": "2024-01-10T10:30:00Z",
+      "updated_at": "2024-01-20T15:45:00Z"
+    },
+    {
+      "id": "MLA123456791",
+      "title": "Samsung Galaxy A35 5G Dual SIM 128 GB",
+      "price": 326,
+      "original_price": null,
+      "currency": "US$",
+      "condition": "Nuevo",
+      "sold_quantity": "200+",
+      "rating": 4.4,
+      "reviews_count": 156,
+      "free_shipping": true,
+      "full_warranty": true,
+      "mercado_pago": true,
+      "category_id": "smartphones",
+      "seller_id": "SELLER002",
+      "images": [
+        "https://via.placeholder.com/400x400/00d2d3/ffffff?text=Galaxy+A35"
+      ],
+      "colors": [
+        {"name": "Verde", "available": true},
+        {"name": "Negro", "available": false}
+      ],
+      "specifications": [
+        {"label": "Memoria RAM", "value": "8 GB"},
+        {"label": "Almacenamiento interno", "value": "128 GB"}
+      ],
+      "stock": 8,
+      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "installments": {
+        "available": true,
+        "count": 12,
+        "interest": "sin interés"
+      },
+      "description": "Samsung Galaxy A35 5G con gran capacidad.",
+      "features": [],
+      "created_at": "2024-01-05T10:30:00Z",
+      "updated_at": "2024-01-20T15:45:00Z"
+    },
+    {
+      "id": "MLA123456792",
+      "title": "Samsung Galaxy A25 5G 128 GB negro",
+      "price": 239,
+      "original_price": null,
+      "currency": "US$",
+      "condition": "Nuevo",
+      "sold_quantity": "400+",
+      "rating": 4.2,
+      "reviews_count": 203,
+      "free_shipping": true,
+      "full_warranty": true,
+      "mercado_pago": true,
+      "category_id": "smartphones",
+      "seller_id": "SELLER003",
+      "images": [
+        "https://via.placeholder.com/400x400/ff7675/ffffff?text=Galaxy+A25"
+      ],
+      "colors": [
+        {"name": "Negro", "available": true}
+      ],
+      "specifications": [
+        {"label": "Memoria RAM", "value": "6 GB"},
+        {"label": "Almacenamiento interno", "value": "128 GB"}
+      ],
+      "stock": 30,
+      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "installments": {
+        "available": true,
+        "count": 12,
+        "interest": "sin interés"
+      },
+      "description": "Samsung Galaxy A25 5G económico y eficiente.",
+      "features": [],
+      "created_at": "2024-01-01T10:30:00Z",
+      "updated_at": "2024-01-20T15:45:00Z"
+    }
+  ]
+}
