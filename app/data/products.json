@@ -16,26 +16,57 @@
       "category_id": "smartphones",
       "seller_id": "SELLER001",
       "images": [
-        "https://via.placeholder.com/400x400/667eea/ffffff?text=Galaxy+A55+1",
-        "https://via.placeholder.com/400x400/764ba2/ffffff?text=Galaxy+A55+2",
-        "https://via.placeholder.com/400x400/f093fb/ffffff?text=Galaxy+A55+3",
-        "https://via.placeholder.com/400x400/4facfe/ffffff?text=Galaxy+A55+4"
+        "http://localhost:8000/static/images/products/galaxy_a55_1.svg",
+        "http://localhost:8000/static/images/products/galaxy_a55_2.svg",
+        "http://localhost:8000/static/images/products/galaxy_a55_3.svg",
+        "http://localhost:8000/static/images/products/galaxy_a55_4.svg"
       ],
       "colors": [
-        {"name": "Negro", "available": true},
-        {"name": "Azul claro", "available": true},
-        {"name": "Blanco", "available": false}
+        {
+          "name": "Negro",
+          "available": true
+        },
+        {
+          "name": "Azul claro",
+          "available": true
+        },
+        {
+          "name": "Blanco",
+          "available": false
+        }
       ],
       "specifications": [
-        {"label": "Memoria RAM", "value": "8 GB"},
-        {"label": "Almacenamiento interno", "value": "128 GB"},
-        {"label": "Tipo de pantalla", "value": "Super AMOLED"},
-        {"label": "Tamaño de pantalla", "value": "6.6\""},
-        {"label": "Resolución de la cámara trasera principal", "value": "50 Mpx"},
-        {"label": "Sistema operativo", "value": "Android"}
+        {
+          "label": "Memoria RAM",
+          "value": "8 GB"
+        },
+        {
+          "label": "Almacenamiento interno",
+          "value": "128 GB"
+        },
+        {
+          "label": "Tipo de pantalla",
+          "value": "Super AMOLED"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "6.6\""
+        },
+        {
+          "label": "Resolución de la cámara trasera principal",
+          "value": "50 Mpx"
+        },
+        {
+          "label": "Sistema operativo",
+          "value": "Android"
+        }
       ],
       "stock": 25,
-      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "payment_methods": [
+        "visa",
+        "mastercard",
+        "mercadopago"
+      ],
       "installments": {
         "available": true,
         "count": 12,
@@ -67,18 +98,35 @@
       "category_id": "smartphones",
       "seller_id": "SELLER001",
       "images": [
-        "https://via.placeholder.com/400x400/5f27cd/ffffff?text=Galaxy+A54"
+        "http://localhost:8000/static/images/products/galaxy_a54_1.svg",
+        "http://localhost:8000/static/images/products/galaxy_a54_2.svg"
       ],
       "colors": [
-        {"name": "Azul", "available": true},
-        {"name": "Negro", "available": true}
+        {
+          "name": "Azul",
+          "available": true
+        },
+        {
+          "name": "Negro",
+          "available": true
+        }
       ],
       "specifications": [
-        {"label": "Memoria RAM", "value": "6 GB"},
-        {"label": "Almacenamiento interno", "value": "128 GB"}
+        {
+          "label": "Memoria RAM",
+          "value": "6 GB"
+        },
+        {
+          "label": "Almacenamiento interno",
+          "value": "128 GB"
+        }
       ],
       "stock": 15,
-      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "payment_methods": [
+        "visa",
+        "mastercard",
+        "mercadopago"
+      ],
       "installments": {
         "available": true,
         "count": 12,
@@ -105,18 +153,35 @@
       "category_id": "smartphones",
       "seller_id": "SELLER002",
       "images": [
-        "https://via.placeholder.com/400x400/00d2d3/ffffff?text=Galaxy+A35"
+        "http://localhost:8000/static/images/products/galaxy_a35_1.svg",
+        "http://localhost:8000/static/images/products/galaxy_a35_2.svg"
       ],
       "colors": [
-        {"name": "Verde", "available": true},
-        {"name": "Negro", "available": false}
+        {
+          "name": "Verde",
+          "available": true
+        },
+        {
+          "name": "Negro",
+          "available": false
+        }
       ],
       "specifications": [
-        {"label": "Memoria RAM", "value": "8 GB"},
-        {"label": "Almacenamiento interno", "value": "128 GB"}
+        {
+          "label": "Memoria RAM",
+          "value": "8 GB"
+        },
+        {
+          "label": "Almacenamiento interno",
+          "value": "128 GB"
+        }
       ],
       "stock": 8,
-      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "payment_methods": [
+        "visa",
+        "mastercard",
+        "mercadopago"
+      ],
       "installments": {
         "available": true,
         "count": 12,
@@ -143,17 +208,31 @@
       "category_id": "smartphones",
       "seller_id": "SELLER003",
       "images": [
-        "https://via.placeholder.com/400x400/ff7675/ffffff?text=Galaxy+A25"
+        "http://localhost:8000/static/images/products/galaxy_a25_1.svg",
+        "http://localhost:8000/static/images/products/galaxy_a25_2.svg"
       ],
       "colors": [
-        {"name": "Negro", "available": true}
+        {
+          "name": "Negro",
+          "available": true
+        }
       ],
       "specifications": [
-        {"label": "Memoria RAM", "value": "6 GB"},
-        {"label": "Almacenamiento interno", "value": "128 GB"}
+        {
+          "label": "Memoria RAM",
+          "value": "6 GB"
+        },
+        {
+          "label": "Almacenamiento interno",
+          "value": "128 GB"
+        }
       ],
       "stock": 30,
-      "payment_methods": ["visa", "mastercard", "mercadopago"],
+      "payment_methods": [
+        "visa",
+        "mastercard",
+        "mercadopago"
+      ],
       "installments": {
         "available": true,
         "count": 12,

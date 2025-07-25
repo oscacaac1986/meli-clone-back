@@ -1,0 +1,34 @@
+{
+  "sellers": [
+    {
+      "id": "SELLER001",
+      "name": "TecnoOficial",
+      "reputation": "verde",
+      "sales": "1000+",
+      "location": "Capital Federal",
+      "rating": 4.8,
+      "years_selling": 5,
+      "verified": true
+    },
+    {
+      "id": "SELLER002",
+      "name": "ElectroMax",
+      "reputation": "verde",
+      "sales": "800+",
+      "location": "Buenos Aires",
+      "rating": 4.6,
+      "years_selling": 3,
+      "verified": true
+    },
+    {
+      "id": "SELLER003",
+      "name": "TechStore",
+      "reputation": "amarillo",
+      "sales": "500+",
+      "location": "Córdoba",
+      "rating": 4.3,
+      "years_selling": 2,
+      "verified": false
+    }
+  ]
+}

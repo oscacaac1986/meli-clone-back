@@ -120,5 +120,44 @@ async def get_related_products(
             detail=f"Producto con ID '{product_id}' no encontrado"
         )
     
+    
     # Retornar productos relacionados
     return product.related_products[:limit]
+
+# Al final del archivo app/routers/products.py, agregar:
+
+@router.get("/{product_id}/images")
+async def get_product_images_detailed(
+    product_id: str = Path(..., description="ID único del producto")
+):
+    """
+    Obtiene información detallada de las imágenes de un producto
+    """
+    await asyncio.sleep(0.1)  # Simular latencia
+    
+    try:
+        product = await product_service.get_product_by_id(product_id)
+        if not product:
+            raise HTTPException(status_code=404, detail=f"Producto {product_id} no encontrado")
+        
+        # Procesar imágenes para incluir metadatos
+        images_with_metadata = []
+        for i, image_url in enumerate(product.images):
+            images_with_metadata.append({
+                "id": i,
+                "url": image_url,
+                "alt": f"{product.title} - Vista {i+1}",
+                "is_primary": i == 0,
+                "type": "product_image"
+            })
+        
+        return {
+            "product_id": product_id,
+            "product_title": product.title,
+            "images": images_with_metadata,
+            "total_images": len(images_with_metadata),
+            "primary_image": images_with_metadata[0] if images_with_metadata else None
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error obteniendo imágenes: {str(e)}")
