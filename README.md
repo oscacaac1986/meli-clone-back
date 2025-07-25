@@ -22,7 +22,7 @@ app/
 ### Instalación
 ```bash
 # Clonar repositorio
-git clone <repo-url>
+git clone https://github.com/oscacaac1986/meli-clone-back.git
 cd meli-clone-back
 
 # Crear entorno virtual
